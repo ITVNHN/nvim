@@ -1,0 +1,49 @@
+return {
+	{ "terryma/vim-multiple-cursors" },
+	-- {
+	-- 	"mg979/vim-visual-multi",
+	-- 	event = { "BufRead", "BufEnter" },
+	-- 	branch = "master",
+	-- 	init = function()
+	-- 		-- https://github.com/mg979/vim-visual-multi/wiki/Highlight-colors
+	-- 		-- vim.cmd([[ highlight multiple_cursors_cursor term=reverse cterm=reverse gui=reverse ]])
+	-- 		-- vim.cmd([[highlight link multiple_cursors_visual Visual]])
+	-- 		-- vim.g.VM_maps["Add Cursor Down"] = "<M-j>"
+	-- 		-- vim.g.VM_maps["Add Cursor Up"] = "<M-k>"
+	-- 		-- vim.g.VM_maps["Find Under"] = "<C-d>"
+	-- 		-- vim.g.VM_maps["Find Subword Under"] = "<C-d>"
+	-- 		-- vim.g.VM_highlight_matches = "yellow"
+	-- 		-- vim.g.VM_Mono_hl = "DiffText"
+	-- 		-- vim.g.VM_Extend_hl = "DiffAdd"
+	-- 		-- vim.g.VM_Cursor_hl = "Visual"
+	-- 		-- vim.g.VM_Insert_hl = "DiffChange"
+	-- 		-- vim.g.VM_default_mappings = 0
+	-- 		-- vim.g.VM_maps = { ["Find Under"] = "<C-x>", ["Find Subword Under"] = "<C-x>" }
+	-- 		-- vim.g.VM_highlight_matches = "hi! Search ctermfg=228 cterm=underline"
+	-- 		-- vim.g.VM_highlight_matches = "hi! link Search PmenuSel"
+	-- 	end,
+	-- },
+	-- {
+	-- 	"smoka7/multicursors.nvim",
+	-- 	event = "VeryLazy",
+	-- 	dependencies = {
+	-- 		"smoka7/hydra.nvim",
+	-- 	},
+	-- 	opts = {},
+	-- 	cmd = { "MCstart", "MCvisual", "MCclear", "MCpattern", "MCvisualPattern", "MCunderCursor" },
+	-- 	keys = {
+	-- 		{
+	-- 			mode = { "v", "n" },
+	-- 			"<Leader>cm",
+	-- 			"<cmd>MCstart<cr>",
+	-- 			desc = "Create a selection for selected text or word under the cursor",
+	-- 		},
+	-- 		{
+	-- 			mode = { "n" },
+	-- 			"cm",
+	-- 			"<cmd>MCstart<cr>",
+	-- 			desc = "Create a selection for selected text or word under the cursor",
+	-- 		},
+	-- 	},
+	-- },
+}
